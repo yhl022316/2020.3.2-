@@ -36,3 +36,35 @@ def sum(s1,s2):
     print(b)
 sum('abcdef','facbed')
 
+
+#函数嵌套
+def demo1():
+    print('*'*50)
+    print('/'*50)
+demo1()
+def demo2():
+    print('='*50)
+    demo1()#函数的嵌套   代码从上往下先执行demo1,
+    # 在执行demo2,最后执行在demo2中嵌套的demo1
+demo2()
+
+
+def print_lien(hare,char):
+    pass
+    print(hare*char)
+print_lien('+',25)
+
+def print_lnes(char,hare):
+
+    row=0
+    while row<5:
+        print_lien(char,hare)
+
+        row+=1
+    
+print_lnes('-',5)
+
+
+
+
+
