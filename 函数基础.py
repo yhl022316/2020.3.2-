@@ -16,4 +16,23 @@ a=sum_num(22,55)#调用函数必须要有变量a来接受函数  最后print(a)�
 print(a)
 
 
+a=[0]*26
+print(a)
+
+
+
+print(ord('a'))
+ord('b')-ord('a')#表示  b的角标
+
+#排序  sort()
+def sum(s1,s2):
+    a=list(s1)
+    b=list(s2)
+
+
+    a.sort()
+    b.sort()
+    print(a)
+    print(b)
+sum('abcdef','facbed')
 
