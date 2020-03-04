@@ -46,7 +46,7 @@ def parCheck(symbolsting):#假设symbolsting是"(())"
     while index<len(symbolsting)and flag:
         symbol = symbolsting[index]
         if symbol=="(":
-            s.push(symbol)
+            s.push(symbol)#入栈
 
         else:
             if s.isEmpty():#isEmpty()测试栈是否为空。不需要参数，返回布尔值
@@ -89,3 +89,21 @@ print(parCheck('((())'))
 #         return False
 # print(parChecker('(())'))
 # print(parChecker('((())'))
+
+
+
+
+def divide2(desNumber):
+    s = Stack()
+    while desNumber > 0:
+        rem = desNumber % 2
+        s.push(rem)
+        desNumber = desNumber//2
+    binString = ""
+    while not s.isEmpty():
+        binString = binString + str(s.pop())
+
+    return binString
+
+print(divide2(233))
+
