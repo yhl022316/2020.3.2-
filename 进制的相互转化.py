@@ -51,3 +51,13 @@ def divideBase(desNumber,base):
     return binString
 print(divide3(20,16))
 print(divide3(50,8))
+
+
+def ten(desnumber):
+    s=Stack()
+    while desnumber >0:#输入的十进制数字以及多次除二操作之后的数字必须>0
+        y=desnumber %2 #算出余数
+        s.push(y)#将算出的雨水放入栈中
+        desnumber=desnumber//2#算出来的整数商进行下一次循环
+
+
