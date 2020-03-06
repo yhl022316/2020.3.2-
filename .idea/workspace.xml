@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9246107d-c4f6-4566-a30f-6126f9599b8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进制的相互转化.py" beforeDir="false" afterPath="$PROJECT_DIR$/进制的相互转化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list stum_递归.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="disorderstring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/disorderstring.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="进制的相互转化.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="进制的相互转化.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/进制的相互转化.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
+            <state relative-caret-position="-1410">
               <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -113,6 +103,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list stum_递归.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list stum_递归.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -139,6 +138,7 @@
         <option value="$PROJECT_DIR$/列队.py" />
         <option value="$PROJECT_DIR$/找错.py" />
         <option value="$PROJECT_DIR$/进制的相互转化.py" />
+        <option value="$PROJECT_DIR$/list stum_递归.py" />
       </list>
     </option>
   </component>
@@ -151,9 +151,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="837" />
-    <option name="y" value="78" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="902" />
+    <option name="y" value="53" />
     <option name="width" value="950" />
     <option name="height" value="890" />
   </component>
@@ -361,7 +361,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="63" width="760" height="712" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,9 +369,9 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29948366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24611032" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32867134" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32763532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1541555" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -617,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/双端队列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/找错.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -640,8 +633,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/进制的相互转化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
+        <state relative-caret-position="-1410">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/双端队列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list stum_递归.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
