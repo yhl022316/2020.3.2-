@@ -73,7 +73,7 @@ print(sum2('aaaabbbbcccc','bbbbbccccaaaa'))
 def sum3(s1,s2):
     alist1=list(s1)
     alist2=list(s2)
-    #排序   排序的时间复杂度
+    #排序
     alist1.sort()
     alist2.sort()
     flag=True
@@ -85,3 +85,31 @@ def sum3(s1,s2):
             flag=False
     return flag
 print(sum3('aaaaabbbbbcccc','bbbbbccccaaaaa'))
+
+
+def sum01(s1,s2):
+    a=list(s1)
+    b=list(s2)
+    pos1=0
+    flag=True
+    while flag and pos1<(len(s1)):
+        pos2=0
+        found=False
+        while pos2<(len(s2)):
+            if a[pos1]==b[pos2]:
+                found=True
+            else:
+                pos2=pos2+1
+        if found:
+            b[s2]=None
+            pos1=pos1+1
+        else:
+            flag=False
+    return flag
+print(sum01('yyyy','yyyy'))
+
+
+
+
+
+
