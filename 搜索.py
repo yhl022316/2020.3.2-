@@ -79,3 +79,55 @@ def binary(alist,item):
         else:
             return binary(alist[midpoin+1:],item)
 
+
+def su(alist,item):
+    found=False
+    pos=0
+
+    while pos<len(alist) and not found:
+        if alist[pos]==item:
+            found=True
+        else:
+            pos=pos+1
+    return found
+
+
+
+
+#二分查找 有序列表
+'''
+1.确定中间项是谁
+'''
+def center(alist,item):
+    found=False
+    first=0
+    last=len(alist)-1
+
+    while first<=last and not found:
+        mid=(first+last)//2
+        if alist[mid]==item:
+            found=True
+        else:
+            if item<alist[mid]:
+                last=mid-1
+            else:
+                first=mid+1
+    return found
+
+
+
+#递归二分查找
+def bin(alist,item):
+    if len(alist)==0:
+        return False
+    midn=len(alist)//2
+    if alist[midn]==item:
+         return True
+    else:
+        if alist[midn]>item:
+            return bin(alist[:midn],item)
+        else:
+            return bin(alist[midn+1:],item)
+
+
+
